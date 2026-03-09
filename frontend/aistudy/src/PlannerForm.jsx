@@ -28,7 +28,7 @@ const PlannerForm = ({ setPlan, setLoading }) => {
     setLoading(true);
     try {
       // Using axios.post as you requested
-      const response = await axios.post('http://127.0.0.1:5000/api/generate-plan', { 
+      const response = await axios.post('https://ai-study-planner-oqv7.onrender.com/api/generate-plan', { 
         hours: parseInt(hours), 
         days: parseInt(days), 
         subjects 
