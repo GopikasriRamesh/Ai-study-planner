@@ -2,3 +2,4 @@ flask
 flask-cors
 axios
 gunicorn
+flask-sqlalchemy
